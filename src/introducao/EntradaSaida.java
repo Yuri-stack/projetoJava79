@@ -22,14 +22,11 @@ public class EntradaSaida {
 		temperatura = leia.nextFloat();
 		
 		// Processamento
-		fahrenheit = temperatura * 1.8f + 32;
-		
+		fahrenheit = temperatura * 1.8f + 32; 
+				
 		// Saída dos Dados
 		System.out.println("Bom dia, " + nome);
-		System.out.printf("A temperatura em Fahrenhiet é %.2f F.", fahrenheit); 
-
-		System.out.println("\nTeste"); // Concatenação
-		
+		System.out.printf("A temperatura em Fahrenhiet é %.2f F.", fahrenheit); 		
 	}
 
 }
